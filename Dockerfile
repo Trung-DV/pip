@@ -48,7 +48,7 @@ ENV PATH=$CONDA_DIR/bin:$PATH
 ENV PYTHONDONTWRITEBYTECODE=true
 
 ### https://conda.io/projects/continuumio-conda/en/latest/release-notes.html
-RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh && \
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-py312_24.11.1-0-Linux-x86_64.sh -O miniconda.sh && \
     chmod a+x miniconda.sh && \
     bash ./miniconda.sh -b -p $CONDA_DIR && \
     rm ./miniconda.sh

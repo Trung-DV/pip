@@ -82,7 +82,7 @@ boto3
 #pyarrow==14.0.1   ### awsrangler dep issues
 smart-open==6.3.0
 s3transfer
-s3fs
+s3fs==0.4.2
 
 
 
